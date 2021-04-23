@@ -13,7 +13,7 @@ func Database() *sql.DB {
 	user := "root"
 	pass := "root"
 
-	credentials := fmt.Sprintf("%s:%s@/todolist?charset=utf8&parseTime=True", user, pass)
+	credentials := fmt.Sprintf("%s:%s@/gotodo?charset=utf8&parseTime=True", user, pass)
 
 	database, err := sql.Open("mysql", credentials)
 
