@@ -11,3 +11,5 @@ This Todo list is built using Golang with a simple UI built using HTML.
     go get -u github.com/gorilla/mux
   ```
   
+  ## Screenshot
+![SS](https://user-images.githubusercontent.com/49164364/117957952-2b3eab80-b338-11eb-9025-6f84ef3c0ab7.png)
